@@ -1,50 +1,236 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
+body {
+    background: linear-gradient(to right ,#e7df92, #95ec8d, #65b4e2); /*Cor das página */
+    font: normal 20pt arial; /*Letra do site */
+    justify-content: center;
 }
 
-body{
-    background: burlywood;
-    margin-top: 100px;
-    margin-left: 620px;
+header {
+    color: rgb(255, 255, 255); /*Cor do título */
+    text-align: center; /*Local do título */
 }
 
-.seção{
-    background: rgba(255, 255, 255, 0.719);
-    text-align: right;
-    width: 211px;
-    border-radius: 5px; padding: 2px;
-    font: normal 40pt arial;
+section {
+    
+    margin-top: 60px;
+    font: normal 60pt arial;
+    justify-content: space-between;
+    background: rgba(60, 62, 65, 0.486); /*Cor da borda */
+    border-radius: 10px;padding: 15px; /*Formato da borda */
+    padding: 15px; /*Tamanho da borda */
+    width: 300px; /*Largura da borda */
+    margin: auto; /*Local da margem */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /*Sombra embaixo da margem */
+}
+
+.res{
+    background: white;
+    text-align: right; /* Para alinhar no canto */
+    font-size: 50px;
+    backdrop-filter: blur(5.5px);
+    width: 250px;
+    border-radius: 10px; padding: 5px;
+    border: none;
+    box-shadow: 1px 1px 1px;
     height: 60px;
 }
 
-section{
-    background: rgba(56, 50, 50, 0.233);
-    width: 310px;
-    padding: 50px;
-    border-radius: 20px;
-}
-
-.boto{
-    gap: 30px;
-    width: 1000px;
-}
-
-input{
-    width: 50px;
-    height: 30px;
-
-}
-
-input:hover{
-    background: rgb(0, 255, 4);
-}
-
-#c{
-    width: 104px;
+.botões {
+    margin: 10px;
+    font-size: 30px;
+    flex-basis: 20%;
 }
 
 #zero{
-    width: 158px;
+    border-radius: 10px; padding: 10px;
+    width: 197px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#zero:hover{
+    background: rgb(102, 231, 108);
+}
+
+#C{
+    border-radius: 10px; padding: 10px;
+    width: 130px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#C:hover{
+    background: rgb(102, 231, 108);
+}
+
+#um{
+    border-radius: 10px; padding: 10px;
+    width: 60px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#um:hover{
+    background: rgb(102, 231, 108);
+}
+
+#dois{
+    border-radius: 10px; padding: 10px;
+    width: 60px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#dois:hover{
+    background: rgb(102, 231, 108);
+}
+
+#três{
+    border-radius: 10px; padding: 10px;
+    width: 60px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#três:hover{
+    background: rgb(102, 231, 108);
+}
+
+#quatro{
+    border-radius: 10px; padding: 10px;
+    width: 60px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#quatro:hover{
+    background: rgb(102, 231, 108);
+}
+
+#cinco{
+    border-radius: 10px; padding: 10px;
+    width: 60px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#cinco:hover{
+    background: rgb(102, 231, 108);
+}
+
+#seis{
+    border-radius: 10px; padding: 10px;
+    width: 60px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#seis:hover{
+    background: rgb(102, 231, 108);
+}
+
+#sete{
+    border-radius: 10px; padding: 10px;
+    width: 60px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#sete:hover{
+    background: rgb(102, 231, 108);
+}
+
+#oito{
+    
+    border-radius: 10px; padding: 10px;
+    width: 60px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#oito:hover{
+    background: rgb(102, 231, 108);
+}
+
+#nove{
+    cursor: pointer;
+    border-radius: 10px; padding: 10px;
+    width: 60px;
+    font-size: large;
+}
+
+#nove:hover{
+    background: rgb(102, 231, 108);
+}
+
+#divisão{
+    border-radius: 10px; padding: 10px;
+    width: 60px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#divisão:hover{
+    background: rgb(102, 231, 108);
+}
+
+#multiplicação{
+    border-radius: 10px; padding: 10px;
+    width: 60px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#multiplicação:hover{
+    background: rgb(102, 231, 108);
+}
+
+#menos{
+    border-radius: 10px; padding: 10px;
+    width: 60px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#menos:hover{
+    background: rgb(102, 231, 108);
+}
+
+#mais{
+    border-radius: 10px; padding: 10px;
+    width: 60px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#mais:hover{
+    background: rgb(102, 231, 108);
+}
+
+#igual{
+    border-radius: 10px; padding: 10px;
+    width: 60px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#igual:hover{
+    background: rgb(102, 231, 108);
+}
+
+#apagar{
+    border-radius: 10px; padding: 10px;
+    width: 60px;
+    font-size: large;
+    letter-spacing: .20rem;
+    cursor: pointer;
+}
+
+#apagar:hover{
+    background: rgb(102, 231, 108);
+}
+
+footer {
+    color: white; /*Cor do meu nome */
+    text-align: center; /*Local do meu nome */
+    font-style: italic; /*Estilo da fonte */
 }
