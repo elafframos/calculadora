@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>  
+    <section>
+        <section class="seção">
+            
+        </section> <br>
+        <div class="boto">
+            <input type="button" value="C" id="c" onclick="zerar(0)">
+            <input type="button" value="&larr;" class="apagar" onclick="apagar()"> 
+            <input type="button" value="/" onclick="calculo('/')"><br> 
+            <input type="button" value="7" onclick="calculo(7)"> 
+            <input type="button" value="8" onclick="calculo(8)">
+            <input type="button" value="9" onclick="calculo(9)">
+            <input type="button" value="x" onclick="calculo('*')"> <br>
+            <input type="button" value="4" onclick="calculo(4)"> 
+            <input type="button" value="5" onclick="calculo(5)">
+            <input type="button" value="6" onclick="calculo(6)"> 
+            <input type="button" value="-" onclick="calculo('-')"><br>
+            <input type="button" value="1" onclick="calculo(1)">
+            <input type="button" value="2" onclick="calculo(2)">
+            <input type="button" value="3" onclick="calculo(3)"> 
+            <input type="button" value="+" class="mais" onclick="calculo('+')"><br>
+            <input type="button" value="0" id="zero" onclick="calculo(0)">
+            <input type="button" value="=" onclick="calcular()">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
