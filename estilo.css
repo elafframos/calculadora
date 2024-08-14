@@ -1,7 +1,14 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+}
+
 body {
     background: linear-gradient(to right ,#e7df92, #95ec8d, #65b4e2); /*Cor das página */
     font: normal 20pt arial; /*Letra do site */
     justify-content: center;
+    margin-top: 90px;
 }
 
 header {
@@ -14,7 +21,7 @@ section {
     margin-top: 60px;
     font: normal 60pt arial;
     justify-content: space-between;
-    background: rgba(60, 62, 65, 0.486); /*Cor da borda */
+    background: rgba(60, 62, 65, 0.384); /*Cor da borda */
     border-radius: 10px;padding: 15px; /*Formato da borda */
     padding: 15px; /*Tamanho da borda */
     width: 300px; /*Largura da borda */
