@@ -1,36 +1,44 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html> <!-- Parte de HTML -->
+<html lang="pt-BR"> <!-- Idioma do site -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen"> <!-- Chamando um arquivo em CSS -->
 </head>
-<body>  
+<body>
+
     <section>
-        <section class="seção">
-            
-        </section> <br>
-        <div class="boto">
-            <input type="button" value="C" id="c" onclick="zerar(0)">
-            <input type="button" value="&larr;" class="apagar" onclick="apagar()"> 
-            <input type="button" value="/" onclick="calculo('/')"><br> 
-            <input type="button" value="7" onclick="calculo(7)"> 
-            <input type="button" value="8" onclick="calculo(8)">
-            <input type="button" value="9" onclick="calculo(9)">
-            <input type="button" value="x" onclick="calculo('*')"> <br>
-            <input type="button" value="4" onclick="calculo(4)"> 
-            <input type="button" value="5" onclick="calculo(5)">
-            <input type="button" value="6" onclick="calculo(6)"> 
-            <input type="button" value="-" onclick="calculo('-')"><br>
-            <input type="button" value="1" onclick="calculo(1)">
-            <input type="button" value="2" onclick="calculo(2)">
-            <input type="button" value="3" onclick="calculo(3)"> 
-            <input type="button" value="+" class="mais" onclick="calculo('+')"><br>
+        <div class="botões">
+            <div>
+                <section class="res">
+                    
+                </section>
+            </div> <br> <br>
+            <input type="button" value="C" id="C" onclick="zerar()">
+            <input type="button" value="&larr;" id="apagar" onclick="apagar()"> 
+            <input type="button" value="/" id="divisão" onclick="calculo('/')"> <br>
+            <input type="button" value="7" id="sete" onclick="calculo('7')">
+            <input type="button" value="8" id="oito" onclick="calculo(8)">
+            <input type="button" value="9" id="nove" onclick="calculo(9)">
+            <input type="button" value="X" id="multiplicação" onclick="calculo('*')"> <br>
+            <input type="button" value="4" id="quatro" onclick="calculo(4)">
+            <input type="button" value="5" id="cinco" onclick="calculo(5)">
+            <input type="button" value="6" id="seis" onclick="calculo(6)">
+            <input type="button" value="-" id="menos" onclick="calculo('-')"> <br>
+            <input type="button" value="1" id="um" onclick="calculo(1)">
+            <input type="button" value="2" id="dois" onclick="calculo(2)">
+            <input type="button" value="3" id="três" onclick="calculo(3)">
+            <input type="button" value="+" id="mais" onclick="calculo('+')"> <br>
             <input type="button" value="0" id="zero" onclick="calculo(0)">
-            <input type="button" value="=" onclick="calcular()">
+            <input type="button" value="=" id="igual" onclick="calcular()">
         </div>
     </section>
-    <script src="script.js"></script>
+
+    <footer>
+        <p>&copy;<strong>Élaff Ramos</strong></p> <!-- Aqui fica a copy -->
+    </footer>
+    <script src="script.js"></script> <!-- Chamando um arquivo em JavaScript -->
+
 </body>
 </html>
