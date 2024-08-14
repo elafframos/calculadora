@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background: burlywood;
+    margin-top: 100px;
+    margin-left: 620px;
+}
+
+.seção{
+    background: rgba(255, 255, 255, 0.719);
+    text-align: right;
+    width: 211px;
+    border-radius: 5px; padding: 2px;
+    font: normal 40pt arial;
+    height: 60px;
+}
+
+section{
+    background: rgba(56, 50, 50, 0.233);
+    width: 310px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.boto{
+    gap: 30px;
+    width: 1000px;
+}
+
+input{
+    width: 50px;
+    height: 30px;
+
+}
+
+input:hover{
+    background: rgb(0, 255, 4);
+}
+
+#c{
+    width: 104px;
+}
+
+#zero{
+    width: 158px;
+}
