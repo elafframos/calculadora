@@ -1,44 +1,158 @@
-<!DOCTYPE html> <!-- Parte de HTML -->
-<html lang="pt-BR"> <!-- Idioma do site -->
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen"> <!-- Chamando um arquivo em CSS -->
+    <meta name="description" content="Olá, eu sou Élaff e esse é meu Portifólio, espero que goste :)">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <section>
-        <div class="botões">
-            <div>
-                <section class="res">
-                    
-                </section>
-            </div> <br> <br>
-            <input type="button" value="C" id="C" onclick="zerar()">
-            <input type="button" value="&larr;" id="apagar" onclick="apagar()"> 
-            <input type="button" value="/" id="divisão" onclick="calculo('/')"> <br>
-            <input type="button" value="7" id="sete" onclick="calculo('7')">
-            <input type="button" value="8" id="oito" onclick="calculo(8)">
-            <input type="button" value="9" id="nove" onclick="calculo(9)">
-            <input type="button" value="X" id="multiplicação" onclick="calculo('*')"> <br>
-            <input type="button" value="4" id="quatro" onclick="calculo(4)">
-            <input type="button" value="5" id="cinco" onclick="calculo(5)">
-            <input type="button" value="6" id="seis" onclick="calculo(6)">
-            <input type="button" value="-" id="menos" onclick="calculo('-')"> <br>
-            <input type="button" value="1" id="um" onclick="calculo(1)">
-            <input type="button" value="2" id="dois" onclick="calculo(2)">
-            <input type="button" value="3" id="três" onclick="calculo(3)">
-            <input type="button" value="+" id="mais" onclick="calculo('+')"> <br>
-            <input type="button" value="0" id="zero" onclick="calculo(0)">
-            <input type="button" value="=" id="igual" onclick="calcular()">
-        </div>
+
+        <header class="cabeçalho"> <!-- Parte do rodapé da página -->
+
+            <nav class="menu">
+
+                
+
+                <div>
+                    <div>
+                        <img src="img/logo.png" alt="" width="10%" class="elaff">
+                    </div>
+                    <img src="img/github.png" alt="" width="4%" onclick="git()" class="imagem">
+                    <img src="img/logotipo-do-instagram.png" alt="" width="4%" onclick="instagram()" class="imagem">
+
+                </div>
+            </nav>
+    
+        </header>
+
     </section>
-    <br>
-    <footer>
-        <p>&copy;<strong>Élaff Ramos</strong></p> <!-- Aqui fica a copy -->
+
+    <main> <!-- Parte principal da página -->
+
+        <p class="texto">
+            Eu sou Élaff Ramos e atualmente moro no Tocantins. Estou procurando uma oportunidade para trabalhar, e estou direcionando minha carreira para
+            a programação e desenvolvimento Full Stack. Nos últimos meses, tenho feito projetos para praticar, e assim aprimorando cada vez mais minhas 
+            habilidades. <br>
+            Sou apaixonado por construir sites e aplicativos robustos e minimalistas. Com 7 meses de experiência em diversas tecnologias, incluindo <strong>
+            HTML, Python, Java Script, CSS e C, </strong> sempre busco me aprimorar em tudo o que eu faço. Você pode me encontrar no <strong>GitHub</strong>
+            onde gosto de desenvolver projetos, ou no <strong>Linkedin</strong>. Atualmente estou expandindo minhas habilidades estudando mais <strong>HTML, CSS e SQL.</strong>
+        </p>
+
+    </main>
+
+    <footer> <!-- Parte final da página -->
+
+        <p class="titulo">PROJETOS</p>
+
+        <br> <br> <br>
+
+        <div class="seção">
+
+            <div class="imagens1">
+
+                <h3>Relogio</h3>
+                <img src="img/relogio.png" alt="relogio" width="90%" class="imagens"> 
+                <button onclick="relogio()">Visualizar</button>
+
+            </div>
+
+            <div class="imagens1">
+
+                <h3>Relogio</h3>
+                <img src="img/relogio.png" alt="relogio" width="90%" class="imagens"> 
+                <button onclick="relogio()">Visualizar</button>
+
+            </div>
+
+            <div class="imagens1">
+
+                <h3>Relogio</h3>
+                <img src="img/relogio.png" alt="relogio" width="90%" class="imagens"> 
+                <button onclick="relogio()">Visualizar</button>
+
+            </div>
+
+            <div class="imagens1">
+
+                <h3>Relogio</h3>
+                <img src="img/relogio.png" alt="relogio" width="90%" class="imagens"> 
+                <button onclick="relogio()">Visualizar</button>
+
+            </div>
+
+            <div class="imagens1">
+
+                <h3>Relogio</h3>
+                <img src="img/relogio.png" alt="relogio" width="90%" class="imagens"> 
+                <button onclick="relogio()">Visualizar</button>
+
+            </div>
+            
+            <div class="imagens1">
+
+                <h3>Relogio</h3>
+                <img src="img/relogio.png" alt="relogio" width="90%" class="imagens"> 
+                <button onclick="relogio()">Visualizar</button>
+
+            </div>
+
+            <div class="imagens1">
+
+                <h3>Relogio</h3>
+                <img src="img/relogio.png" alt="relogio" width="90%" class="imagens"> 
+                <button onclick="relogio()">Visualizar</button>
+
+            </div>
+
+            <div class="imagens1">
+
+                <h3>Relogio</h3>
+                <img src="img/relogio.png" alt="relogio" width="90%" class="imagens"> 
+                <button onclick="relogio()">Visualizar</button>
+
+            </div>
+
+            <div class="imagens1">
+
+                <h3>Relogio</h3>
+                <img src="img/relogio.png" alt="relogio" width="90%" class="imagens"> 
+                <button onclick="relogio()">Visualizar</button>
+
+            </div>
+
+            <div class="imagens1">
+
+                <h3>Relogio</h3>
+                <img src="img/relogio.png" alt="relogio" width="90%" class="imagens"> 
+                <button onclick="relogio()">Visualizar</button>
+
+            </div>
+
+            <div class="imagens1">
+
+                <h3>Relogio</h3>
+                <img src="img/relogio.png" alt="relogio" width="90%" class="imagens"> 
+                <button onclick="relogio()">Visualizar</button>
+
+            </div>
+
+            <div class="imagens1">
+
+                <h3>Relogio</h3>
+                <img src="img/relogio.png" alt="relogio" width="90%" class="imagens"> 
+                <button onclick="relogio()">Visualizar</button>
+
+            </div>
+            
+
+        </div>
+
     </footer>
-    <script src="script.js"></script> <!-- Chamando um arquivo em JavaScript -->
+
+    <script src="script.js"></script>
 
 </body>
 </html>
