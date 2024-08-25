@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(to right ,#e7df92, #95ec8d, #65b4e2); /*Cor das página */
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,212,255,1) 50%, rgba(2,0,36,1) 100%); /*Cor das página */
     font: normal 20pt arial; /*Letra do site */
     justify-content: center;
     margin-top: 90px;
